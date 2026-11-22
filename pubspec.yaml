@@ -1,0 +1,24 @@
+name: procedural_puzzle
+description: A production-ready procedural slide puzzle with audio, drag-and-snap physics, and state management.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  audioplayers: ^5.2.1
+  image_picker: ^1.0.7
+  image_cropper: ^5.0.1
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
